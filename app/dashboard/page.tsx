@@ -315,7 +315,7 @@ export default function DashboardPage() {
           />
 
           <button type="submit" className="bg-blue-600 text-white p-3 rounded-xl font-semibold hover:bg-blue-700 transition shadow-sm w-full box-border">
-            편지 링크 생성하기 ✨
+            편지 링크 생성하기
           </button>
         </form>
 
