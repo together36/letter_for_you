@@ -279,7 +279,7 @@ export default function DashboardPage() {
             type="text"
             name="new_letter_title"
             autoComplete="off"
-            placeholder="편지 제목 (예: 생일 축하해!)"
+            placeholder="편지 제목"
             className="border border-gray-200 p-3 rounded-xl text-black bg-gray-50 focus:bg-white focus:outline-none focus:border-blue-500 transition text-sm w-full box-border"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
@@ -288,7 +288,7 @@ export default function DashboardPage() {
           <textarea
             name="new_letter_content"
             autoComplete="off"
-            placeholder="상대방에게 전하고 싶은 마음을 적어보세요..."
+            placeholder="전하고 싶은 마음을 적어보세요."
             className="border border-gray-200 p-3 rounded-xl h-36 text-black bg-gray-50 focus:bg-white focus:outline-none focus:border-blue-500 transition text-sm resize-none w-full box-border"
             value={content}
             onChange={(e) => setContent(e.target.value)}
@@ -364,7 +364,7 @@ export default function DashboardPage() {
 
       {createdLink && (
         <div className="mb-12 p-6 bg-green-50 border border-green-200 rounded-2xl shadow-sm max-w-2xl mx-auto w-full box-border">
-          <p className="text-sm font-bold text-green-800 mb-2">🎉 편지 링크가 생성되었습니다!</p>
+          <p className="text-sm font-bold text-green-800 mb-2">편지 링크가 생성되었습니다!</p>
           <input
             type="text"
             readOnly
